@@ -1,0 +1,289 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    /* height: 70px; */
+    width: 100%;
+    background-color: rgba(0,0,0,1);
+    display: flex;
+    justify-content: center; 
+    position: fixed;  
+}
+
+.container{ 
+    width: 90%;
+    /* background-color: transparent; */
+    display: flex;
+}
+
+.header_container{
+    justify-content: space-between;
+}
+
+.logo{
+    height: 90px;
+    width: 15%;
+    /* background-color: yellow; */
+    font-size: 40px;
+    font-family: segoe UI;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    line-height: 90px;
+    
+}
+
+ .nav{
+    height: 90px;
+    width: 35%;
+    /* background-color: rgb(76, 167, 76);  */
+    display: flex;
+} 
+
+
+.nav-item{
+    width: 20%;
+    height: 90px;
+    /* background-color: rgb(231, 165, 165); */
+    font-family: segoe UI;
+    text-align: center;
+    line-height: 90px;
+    color: white;
+    cursor: pointer;
+    transition: .4s;
+} 
+
+.nav-item:hover {
+    background-color: white;
+    color: rgba(16, 128, 234, 1);
+    
+}
+
+.banner{
+    height: 500px;
+    width: 100%;
+    background-color: gray;
+    background-size: cover;
+    background-image: url(https://images.pexels.com/photos/7353/startup-photos.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    
+}
+
+.block{
+    height: 400px;
+    width: 75%;
+    background-color:rgba(0,0,0,.3) ;
+    /* display: flex; */
+    margin-left: 12.5%;
+    
+       
+}
+
+.block-text{
+    height: 100px;
+    /* width: 50%; */
+    background-color: transparent;
+    font-family: segoe UI;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    
+    
+}
+
+.text{
+    height: 250px;
+    /* width: 50%; */
+    background-color:transparent ;
+    font-family: segoe UI;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+
+}
+
+.services{
+    height: 300px;
+    width: 100%;
+    background-color: rgba(0,0,0,.3);
+    display: flex;
+    
+
+}
+
+.servicebox{
+    height: 200px;
+    width: 15%;
+    background-color: transparent;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-family: segoe UI;
+    background-size: cover ;
+    
+}
+
+.box{
+    height: 180px;
+    width:45%;
+    background-color: transparent;
+    display: flex;
+    margin-top: 5%;
+    /* margin-left: 3.5%; */
+    text-align: center;
+    background-size: cover;
+    /* font-weight: bold; */
+    color: whitesmoke;
+    
+}
+
+.about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    background-color: rgba(0,0,0,.2);
+    display: flex;
+    flex-direction: column;
+    font-family: segoe UI;
+    align-items: center; 
+}
+
+  .about_container{
+    margin-top: 30px;
+    /* background-color: red; */
+    line-height: 30px;
+    display: inline;
+} 
+
+.start_text{
+    font-size: 40px;
+    font-weight: bold;
+    color: gray;
+}  
+
+.quote{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    /* justify-content: center; */
+    font-family: Segoe UI;
+}
+
+ .quote_container{
+    flex-direction: column;
+    align-items: center;
+} 
+
+ .title{
+    font-size: 50px;
+    margin-bottom: 20px;
+} 
+
+
+.btn{
+    padding-left: 60px;
+    padding-right:60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    background-color: rgb(48, 58, 68);
+    color: white;
+    font-weight: bold;
+    font-family: segoe ui;
+    border:none;
+    cursor: pointer;
+    transition: .4s;
+
+} 
+
+.btn:hover {
+    background-color: white;
+    color: rgba(16, 128, 234, 1);
+}
+
+
+.footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #353535;
+    display: flex;
+    justify-content: center;
+}
+
+
+.footer_child{
+    height: 300px;
+    width: 25%;
+    /* background-color: gray; */
+    font-family: segoe UI;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footer_child_1{
+    align-items: center;
+    color: white;
+    font-size: 30px;
+}
+
+ul {
+    margin-top: 40px;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.first{
+    font-size: 22px;
+}
+
+
+.footer_child_4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.social_container{
+    width: 60%;
+    justify-content: space-between;
+}   
+
+.social_icon{
+    height: 50px;
+    width: 50px;
+    /* background-color: white; */
+    background-size: cover;
+    transition: .4s;
+}
+
+
+.si1{
+    background-image: url('https://image.flaticon.com/icons/png/128/174/174855.png');
+}
+
+.si2{
+    background-image: url('https://image.flaticon.com/icons/png/128/145/145807.png');
+}
+
+.si3{
+    background-image: url('https://image.flaticon.com/icons/png/128/145/145802.png');
+}
+
+.si4{
+    background-image: url('https://image.flaticon.com/icons/png/128/1384/1384060.png');
+}
+
+
+.social_icon:hover {
+    background-color:whitesmoke
+    /* color: rgba(16, 128, 234, 1); */
+}
